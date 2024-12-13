@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Website</title>
+  <style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(19, 19, 19);
+    color: #000000;
+    overflow-x: hidden;
+    scroll-behavior: smooth; 
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+    background-color: rgba(19, 19, 19, 0.1);
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-pic {
+    width: 50px;
+    height: 50px;
+  }
+  
+  header h1 {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #525252;
+    transform: translateY(-3px);
+    transition: transform 0.3s;
+  }
+  
+  section {
+    padding: 2rem 2rem;
+    text-align: center;
+  }
+  
+.hero {
+  background-size: cover;
+}
+
+.about, .projects, .contact {
+  background-color: #fff;
+  margin: 2rem 0;
+  padding: 4rem 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: rgb(202, 202, 202);
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.1rem;
+  color: rgb(202, 202, 202);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.button {
+  display: inline-block;
+  background: #1c1c1c;
+  color: #acacac;
+  padding: 0.7rem 2rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.3s;
+  margin-top: 1.5rem;
+}
+
+.button:hover {
+  background: #bebebe;
+  color: #000000;
+  transform: translateY(-3px);
+}
+  .profile-pic {
+      width: 50px;
+      height: 50px;
+  }
+  .Pic {
+    border-radius: 50%;
+    border: 5px solid;
+    border-color: #3b3b3b;
+    width: 150px;
+    height: 150px;
+  }
+  .page {
+    display: flex;
+    justify-content: center;
+  }
+  .tp {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .topic {
+    background: #b5b5b5;
+    border-radius: 20px;
+    padding: 20px;
+    width: 50%;
+    min-height: auto;
+    justify-content: center;
+  }
+  .topic .text {
+    padding-top: 15px;
+    padding-left: 7px;
+  }
+  .topic p b {
+    color: black;
+    font-size: 20px;
+  }
+  .topic hr {
+    width: 70%;
+    padding-top: 2px;
+    background-color: black;
+  }
+  .topic .t {
+    padding-left: 60px;
+    padding-top: 15px;
+  }
+  .topic .a {
+    text-align: justify;
+    padding-left: 7px;
+    padding-top: 15px;
+  }
+  .im {
+    float: left;
+    padding-top: 40px;
+    padding-left: 20px;
+  }
+  .write {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+    padding-top: 80px;
+    padding-left: 20px;
+  }
+  .write p {
+    font-size: 35px;
+  }
+  .a p{
+    color: #000000;
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <img src="logo.png" width="100%" height="100%" alt="Profile Picture" class="profile-pic">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="about.html">About me</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="page">
+    <div class="im">
+      <img src="me.png" alt="Pic" class="Pic">
+    </div>
+    <div class="write">
+      <p>VANN SAK (Zer00)</p>
+      <a>Study at the SETEC Institute</a>
+    </div>
+  </div>
+  <div class="tp">
+    <div class="topic">
+      <center>
+        <p><b>My Story</b></p><br><hr>
+      </center>
+      <div class="a">
+        <p>I'm Zer00 , Cambodia’s Facebook Gaming Star and Information Security Advocate, Is Unleashing Joy and Knowledge in the Gaming World.</p>
+      </div>
+      <div class="t">
+        <b>From Gamer to Influencer</b>
+      </div>
+      <div class="a">
+        <p>Vann Sak, popularly known as Noobie GMK, has taken the Cambodian gaming scene by storm, emerging as one of the country’s biggest Facebook Gaming Creators and a well-known public figure. With his infectious energy and passion for gaming, Noobie GMK has captured the hearts of thousands of fans who eagerly tune in to watch his engaging content</p><br>
+        <p>Noobie GMK’s Facebook Gaming channel has become a hub for gaming enthusiasts across Cambodia and beyond. Whether skillfully swinging swords in Naraka Bladepoint, embarking on long-haul journeys in Euro Truck Simulator, or showcasing his shooting prowess in PUBG, Noobie GMK never fails to entertain. His genuine and cheerful demeanor in front of the camera has made him a beloved figure in the gaming community.</p><br>
+        <p>What sets Noobie GMK apart is his commitment to sharing information and knowledge related to information security. He not only entertains his audience but also educates them about the importance of online safety and security measures within the gaming realm. His dedication to promoting responsible gaming practices has earned him respect and admiration from his growing fan base.</p>
+      </div>
+      <div class="t">
+        <b>From Gamer to Influencer</b>
+      </div>
+      <div class="a">
+        <p>Noobie GMK’s talents extend beyond being a gamer and content creator. He has also ventured into the world of game publishing, leveraging his expertise to bring exciting and immersive gaming experiences to the Cambodian market. Additionally, he has showcased his skills as a caster, providing insightful commentary and analysis.</p><br>
+        <p>Through his hard work and dedication, Noobie GMK has carved a niche for himself in the competitive gaming industry. His engaging content and charismatic personality have propelled him to become a prominent figure not only in Cambodia but also in the broader gaming community.</p><br>
+        <p>As Noobie GMK continues to captivate audiences with his unique blend of entertainment, information, and community engagement, he remains influential in the gaming landscape. Fans can expect to see him embark on new gaming adventures, share valuable insights, and inspire others to pursue their passion for gaming.</p>
+      </div>
+      <div class="t">
+        <b>Conclusion</b>
+      </div>
+      <div class="a">
+        <p>Chhineneang Leangmeng, popularly known as Noobie GMK, is a leading Facebook Gaming Creator and public figure in Cambodia. With his infectious energy, Noobie GMK entertains and educates his audience through his gaming content while also promoting information security and responsible gaming practices. Apart from being a gamer and content creator, Noobie GMK is also involved in game publishing and casting.</p><br>
+        <p>For more information, please use the details below to contact Zer00.</p>
+      </div>
+    </div>
+  </div>
+</body>
